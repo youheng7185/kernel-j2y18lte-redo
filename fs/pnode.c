@@ -233,7 +233,6 @@ static int propagate_one(struct mount *m)
 					last_source = last_source->mnt_master;
 					last_dest = last_source->mnt_parent;
 				}
->>>>>>> 66f0487aecd2... fs/pnode.c: treat zero mnt_group_id-s as unequal
 				break;
 		}
 		do {
